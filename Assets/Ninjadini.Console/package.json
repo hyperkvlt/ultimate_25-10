@@ -1,0 +1,24 @@
+{
+  "name": "com.ninjadini.console",
+  "version": "1.2.1",
+  "unity": "2022.3",
+  "displayName": "Ninjadini Debug Console",
+  "description": "Your ultimate debug console for Unity",
+  "documentationUrl": "https://ninjadini.github.io/njconsole/",
+  "changelogUrl": "https://ninjadini.github.io/njconsole/CHANGELOG.html",
+  "keywords": [
+    "NjConsole",
+    "console",
+    "debug",
+    "debugger",
+    "logs",
+    "logging",
+    "cheats",
+    "qa",
+    "inspector"
+  ],
+  "author": {
+    "name": "Ninjadini",
+    "url": "https://ninjadini.com"
+  }
+}

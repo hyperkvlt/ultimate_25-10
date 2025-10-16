@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2a02353a8a46a7b80d98c4f05d70f0, type: 3}
+  m_Name: NjConsoleSettings
+  m_EditorClassIdentifier: 
+  autoStartOverlay: 1
+  stackTraceMinLevel: 0
+  inPlayerLogMode: 1
+  behaviourOnError: 1
+  emailForTextLogButton: 
+  channelUnityLogs: 0
+  inPlayerLogsPanel: 1
+  inPlayerOptionsPanel: 1
+  inPlayerHierarchyPanel: 1
+  inPlayerUtilitiesPanel: 1
+  inPlayerObjectInspector: 1
+  inPlayerCommandLine: 1
+  inPlayerKeyBindings: 0
+  maxLogsHistory: 512
+  modules:
+  - rid: 225660832465551360
+  - rid: 225660832465551361
+  - rid: 225660832465551362
+  - rid: 225660832465551363
+  references:
+    version: 2
+    RefIds:
+    - rid: 225660832465551360
+      type: {class: ConsoleKeyPressTrigger, ns: Ninjadini.Console.Internal, asm: Ninjadini.Console}
+      data:
+        keyCode: 96
+        TriggerInPlayerBuilds: 1
+    - rid: 225660832465551361
+      type: {class: ConsolePressAndHoldTrigger, ns: Ninjadini.Console.Internal, asm: Ninjadini.Console}
+      data:
+        position: 0
+        size: 35
+        holdDurationSecs: 0.7
+        tapCount: 2
+    - rid: 225660832465551362
+      type: {class: ConsoleKeyPressTrigger, ns: Ninjadini.Console.Internal, asm: Ninjadini.Console}
+      data:
+        keyCode: 96
+        TriggerInPlayerBuilds: 1
+    - rid: 225660832465551363
+      type: {class: ConsolePressAndHoldTrigger, ns: Ninjadini.Console.Internal, asm: Ninjadini.Console}
+      data:
+        position: 0
+        size: 35
+        holdDurationSecs: 0.7
+        tapCount: 2

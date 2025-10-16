@@ -1,0 +1,19 @@
+{
+    "name": "Ninjadini.Console.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Ninjadini.Console",
+        "Ninjadini.Logger"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
